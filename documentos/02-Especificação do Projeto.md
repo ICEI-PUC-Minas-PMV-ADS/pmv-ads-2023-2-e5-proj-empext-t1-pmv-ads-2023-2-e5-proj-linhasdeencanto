@@ -1,14 +1,24 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação do parceiro do projeto junto com a equipe. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Arquitetura e Tecnologias
 
-o	Descreva brevemente a arquitetura definida para o projeto e as tecnologias a serem utilizadas. Sugere-se a criação de um diagrama de componentes da solução.
+O projeto adotará uma arquitetura moderna e escalável para atender às necessidades do Studio Feminino. A solução será desenvolvida utilizando as seguintes tecnologias:
+
+<ul>
+  <li>Frontend: A interface do usuário será desenvolvida utilizando HTML, CSS e JavaScript.</li>
+  <li>Backend: A lógica de negócio será desenvolvida utilizando PHP e MySQL.</li>
+</ul>
+
+As tecnologias escolhidas foram as mais adequadas para atender aos requisitos do projeto, que são:
+
+<ul>
+  <li>Fácil de usar: HTML, CSS e JavaScript são tecnologias de fácil aprendizado e uso, o que facilita o desenvolvimento da interface do usuário.</li>
+  <li>Acessível: O PHP é uma linguagem de programação amplamente utilizada e que está disponível em uma variedade de plataformas, o que garante que a solução será acessível a um grande público.</li>
+  <li>Eficiente: O MySQL é um banco de dados relacional de alto desempenho, o que garante que a solução será eficiente no armazenamento e recuperação de dados.</li>
+</ul>
+
 
 ## Project Model Canvas
 
@@ -17,53 +27,55 @@ Colocar a imagem do modelo construído apresentando a proposta de solução.
 > **Links Úteis**:
 > Disponíveis em material de apoio do projeto
 
+
+## GitHub Project (KANBAN)
+
+O projeto Kanban do GitHub é uma ferramenta poderosa para gerenciar e visualizar o fluxo de trabalho de projetos de desenvolvimento de software. Baseado no sistema Kanban, originário do Lean Manufacturing, o GitHub Kanban oferece uma abordagem flexível e eficaz para organizar tarefas, acompanhar o progresso e melhorar a colaboração em equipes de desenvolvimento.
+
+A vantagem de usá-lo diretamente no GitHub é a integração perfeita com seus repositórios. Você pode vincular facilmente problemas, pull requests e outros itens diretamente ao seu quadro Kanban, o que facilita a associação de tarefas a código-fonte e oferece uma visão holística do seu projeto.
+
+Estamos incorcorando o modelo, haja visto a possibilidade de visão macro do controle de tarefas. O mesmo pode ser acessado através do link abaixo:
+https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/716/views/1
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|       ID      |                Descrição              |   Prioridade  |
+| ------------- | ------------------------------------- |-------------  |
+|      RF-1     | A aplicação deve permitir que os usuários façam login.           |      Alta     |
+|      RF-2     | A aplicação deve permitir que os usuário alterem o cadastro.               |      Alta     |
+|      RF-3     | A aplicação deve permitir que os usuários façam cadastro. |      Alta    |
+|      RF-4     | A aplicação deve permitir que os usuários realizem pagamento dentro do site                  |      Alta     |
+|      RF-5     | A aplicação deve permitir que o administrador gerencie o estoque                |      Média    |
+|      RF-6     | A aplicação deve permitir gerenciar cadastro de usuários pelo administrador. (incluir/alterar/excluir )                 |      Média    |
+|      RF-7     | A aplicação deve exibir ose produtos com imagens, descrições e preços.              |      Alta    |
+|      RF-8     | A aplicação deve permitir que os usuários busquem os produtos por nome.                   |      Baixa    |
+|      RF-9     | A aplicação deve apresentar as avaliações e comentários dos clientes para cada produto.            |      Baixa    |
+|      RF-10    | A aplicação deve permitir o gerenciamento do carrinho de compras    |      Média    |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|       ID      |                Descrição              |   Prioridade  |
+| ------------- | ------------------------------------- |-------------  |
+|     RNF-1     | A aplicação será publicado em um ambiente na Internet. (hostinger) | ALTA | 
+|     RNF-2     | A aplicação será compatível com os principais navegadores do mercado. |  ALTA | 
+|     RNF-3     | A aplicação deve ser confiável, deve atender às suas especificações. |  MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas 
+na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|       ID      |                Descrição              |
+| ------------- | ------------------------------------- |
+|      RE-1     | A aplicação deve se restringir às tecnologias básicas da Web de FrontEnd e Backend |
+|      RE-2     | A aplicação deverá ser entregue no final do semestre letivo             |
+|      RE-3     | A aplicação deve estar em conformidade com as leis e normas vigentes         |
 
 ## Diagrama de Casos de Uso
 
