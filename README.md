@@ -1,27 +1,18 @@
-# TÍTULO DO PROJETO
+# Linhas de Encanto Helena
 
-`CURSO`
+`Analise de Desenvolvimento de Sistema - EAD`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de um Sistema Sociotécnico Inovador`
 
-`SEMESTRE`
+`Eixo- 05`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Criação de uma aplicação com a premissa da venda on-line de peças artesanais feitas em crochê e tricô.
 
 ## Integrantes
+* Thais Rodrigues Dantas
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
-## Orientador
-
-* Nome completo do professor 1
-
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+## Orientador:
+* Sandra Maria Silveira
 
 # Documentação
 
@@ -35,8 +26,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src/README.md"> Código Fonte</a></li
 
-# Apresentação
+# Apresentação!
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
